@@ -67,7 +67,7 @@ def remove_ticket():
     print("Ticket not found.")
 
 
-# 5. Count tickets
+#Count tickets
 def count_tickets():
     print("Total active tickets:", len(tickets))
 
