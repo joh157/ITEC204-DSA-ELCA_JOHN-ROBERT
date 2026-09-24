@@ -14,7 +14,7 @@ tickets = [
 ]
 
 
-# 1. Add a ticket
+#Add a ticket
 def add_ticket():
     incident_id = input("Enter Incident ID: ")
     bot = input("Enter Bot: ")
@@ -24,7 +24,7 @@ def add_ticket():
     print("Ticket added successfully.")
 
 
-# 2. Display all tickets
+#Display all tickets
 def display_tickets():
     print("\n===== ACTIVE INCIDENT TICKETS =====")
 
@@ -39,7 +39,7 @@ def display_tickets():
         print()
 
 
-# 3. Search for a ticket
+#Search for a ticket
 def search_ticket():
     incident_id = input("Enter Incident ID to search: ")
 
@@ -54,7 +54,7 @@ def search_ticket():
     print("Ticket not found.")
 
 
-# 4. Remove a ticket
+#Remove a ticket
 def remove_ticket():
     incident_id = input("Enter Incident ID to remove: ")
 
@@ -72,7 +72,7 @@ def count_tickets():
     print("Total active tickets:", len(tickets))
 
 
-# Menu
+#Menu
 while True:
     print("\n===== INCIDENT TICKET MANAGER =====")
     print("1. Add Ticket")
